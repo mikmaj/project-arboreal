@@ -5,6 +5,19 @@ import './App.css';
 interface AppProps {}
 
 function App({}: AppProps) {
+
+  const name = "Pylly"
+
+  const person = { first: name }
+
+  console.log(person)
+
+  const sayHelloLinting = (fName) => {
+    console.log(`Hello linting, ${fName}`);
+  }
+
+  console.log("LEJEJ")
+
   return (
     <div className="App">
       <header className="App-header">
